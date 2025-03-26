@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            color: #66bfbf;
+            margin: 0;
+            text-align: center;
+            font-family: "Merriweather", serif;
+            max-width: 100vw;
+        }
+
+        .top-container {
+            background-color: #e4f9f5;
+            position: relative;
+            padding-top: 100px;
+
+        }
+
+        .pro {
+            text-decoration: underline;
+        }
+
+        .bottom-cloud {
+            position: absolute;
+            right: 400px;
+        }
+
+        h1 {
+            color: #66bfbf;
+            font-size: 5.625rem;
+            margin: 50px auto 0 auto;
+            font-family: "Sacramento", cursive;
+        }
+
+        h2 {
+            font-family: "Montserrat", sans-serif;
+            font-size: 2.5rem;
+            font-weight: normal;
+            padding-bottom: 10px;
+        }
+
+        .photo {
+            overflow-clip-margin: content-box;
+            overflow: clip;
+            border-radius: 100%;
+            margin-top: 100px;
+        }
+
+        h3 {
+            font-size: 2rem;
+        }
+
+        .text {
+
+            font-size: 50px;
+        }
+
+        hr {
+            border: dotted #eaf6f6 6px;
+            border-bottom: none;
+            width: 15%;
+            margin: 100px auto;
+        }
+
+        .parent {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 50% 50%;
+            width: 50%;
+            margin: 100px auto 0 auto;
+            text-align: left;
+            row-gap: 2rem;
+            column-gap: 2rem;
+        }
+        button{
+            padding: 10px;
+            border-radius: 10px;
+            padding-left: 40px;
+            padding-right: 40px;
+            background-color:  #66bfbf;
+            font-size: 20px;
+            color: whitesmoke;
+            border-color:white;
+            margin-bottom: 100px;
+            margin-top: 50px;
+        }
+        button:hover{
+            opacity: 0.5;
+        }
+        .paragraph{
+            padding-top: 20px;
+
+        }
+        .footer2{
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            padding: 50px;
+        }
+        .footer{
+            background-color: #66bfbf;
+        }
+        .last-para{
+            color: white;
+            padding-bottom: 50px;
+        }
+        @media(max-width:480px){
+           body{
+            max-width:100%;
+
+           }
+           .mountain{
+            width: 100%;
+           }
+           h1{
+            font-size: 40px;
+           }
+           h2{
+            font-size: medium;
+           }
+           .text{
+            font-size: xx-large;
+           }
+           .text12{
+            font-size: x-large;
+           }
+           .bottom-cloud{
+            right: 10px;
+            width: 100px;
+           }
+           .photo{
+            width: 150px;
+            height: 150px;
+           }
+           .chilly{
+            height: 100px;
+            width: 100px;
+           }
+           .cat{
+            height: 100px;
+            width: 100px;
+            margin-top: 30px;
+           }
+           .chilly{
+            margin-top: 30px;
+           }
+           .title-skill{
+            font-size: xx-large;
+            
+           }
+           
+
+        }
+
+        
+
+    </style>
+</head>
+
+<body>
+    <div class="top-container">
+        <img class="top-cloud" src="./cloud top.png" alt="cloud">
+        <div class="title-text">
+            <h1>I'm Sharun</h1>
+            <h2>
+                a
+                <span class="pro">pro</span>
+                grammer.
+            </h2>
+        </div>
+        <img class="bottom-cloud" src="./cloud top.png" alt="cloud">
+        <img class="mountain" src="./mountain.png" alt="">
+    </div>
+    <div class="top-container2">
+        <img class="photo" src="./WhatsApp Image 2025-03-15 at 19.57.33_969d691e.jpg" height="200px" alt="image">
+        <div class="title-text2">
+            <h1 class="text">Hello</h1>
+            <h3 class="text12">I am an Web Devoloper.<br>I❤️programming</h3>
+            <hr>
+        </div>
+
+        <div class="skills">
+            <h2 class="title-skill">My Skills</h2>
+            <div class="parent">
+                <div >
+                    <img class="cat" src="./cat-typing.gif" alt="gif" height="200px">
+                </div>
+                <div>
+                    <h3 style="font-size: 20px;">Design & Development </h3>
+                    <p>I started learning to code when I was 12 years old because I wanted to make my own video games.
+                        Over
+                        time, I have gained a wealth of experience designing and developing mobile and web applications.
+                    </p>
+                </div>
+                <div>
+                    <img class="chilly" src="./chillies.png" alt="chilli" height="200px">
+                </div>
+                <div>
+                    <h3 style="font-size: 20px; ">Hot Wings Challenge </h3>
+                    <p> But my best skill is actually in eating hot wings. I am the undisputed queen of hot wing
+                        challenges.
+                        Ghost Peppers and Carolina Reapers are my favourite snacks.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+
+    <div class="lower-container">
+        <divt class="lower-text">
+            <h1 style="font-size: 30PX;">Get In Touch</h1>
+            <DIV class="paragraph">
+                <p>if you love hot wings as much as i do.</p>
+                <p>Love hot wings as much as i di? Let's talk about how awesome they are! <br> We can code while we eat
+                    hot
+                    wings!</p>
+            </DIV>
+            <button>CONTACT ME</button>
+    </div>
+    <div class="footer">
+        <div class="footer2">
+        <a href="#">Linkedin</a>
+        <a href="#">Twitter</a>
+        <a href="#">Website</a>
+    </div>
+    <p class="last-para">© sharun@chaluparambath</p>
+    </div>
+    
+
+</body>
+
+</html>
