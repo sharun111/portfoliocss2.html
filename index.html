@@ -77,90 +77,105 @@
             row-gap: 2rem;
             column-gap: 2rem;
         }
-        button{
-            padding: 10px;
-            border-radius: 10px;
-            padding-left: 40px;
-            padding-right: 40px;
-            background-color:  #66bfbf;
+
+        .btn {
+            background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+            text-decoration: none;
+            border-radius: 8px;
+            font-family: "Montserrat", sans-serif;
+            color: #ffffff;
             font-size: 20px;
-            color: whitesmoke;
-            border-color:white;
-            margin-bottom: 100px;
-            margin-top: 50px;
+            padding:  10px 20px;
+            margin: 100px auto;
+            display: block;
+            width: fit-content;
         }
-        button:hover{
+
+        .btn:hover {
             opacity: 0.5;
         }
-        .paragraph{
+
+        .paragraph {
             padding-top: 20px;
 
         }
-        .footer2{
+
+        .footer2 {
             display: flex;
             justify-content: center;
             gap: 30px;
             padding: 50px;
         }
-        .footer{
+
+        .footer {
             background-color: #66bfbf;
         }
-        .last-para{
+
+        .last-para {
             color: white;
             padding-bottom: 50px;
         }
-        @media(max-width:480px){
-           body{
-            max-width:100%;
-           }
-           
-           .mountain{
-            width: 100%;
-           }
-           h1{
-            font-size: 40px;
-           }
-           h2{
-            font-size: medium;
-           }
-           .text{
-            font-size: xx-large;
-           }
-           .text12{
-            font-size: x-large;
-           }
-           .bottom-cloud{
-            right: 10px;
-            width: 100px;
-           }
-           .photo{
-            width: 150px;
-            height: 150px;
-           }
-           .chilly{
-            height: 100px;
-            width: 100px;
-           }
-           .cat{
-            height: 120px;
-            width: 200px;
-            
-           }
-          
-           .title-skill{
-            font-size: xx-large;
-            
-           }
-           .parent {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-            width: 90%;
-        }
-    
-    }
 
+        @media(max-width:480px) {
+            body {
+                max-width: 100%;
+            }
+
+            .mountain {
+                width: 100%;
+            }
+
+            h1 {
+                font-size: 40px;
+            }
+
+            h2 {
+                font-size: medium;
+            }
+
+            .text {
+                font-size: xx-large;
+            }
+
+            .text12 {
+                font-size: x-large;
+            }
+
+            .bottom-cloud {
+                right: 10px;
+                width: 100px;
+            }
+
+            .photo {
+                width: 150px;
+                height: 150px;
+            }
+
+            .chilly {
+                height: 100px;
+                width: 100px;
+            }
+
+            .cat {
+                height: 120px;
+                width: 200px;
+
+            }
+
+            .title-skill {
+                font-size: xx-large;
+
+            }
+
+            .parent {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                width: 90%;
+            }
+
+        }
     </style>
 </head>
 
@@ -189,7 +204,7 @@
         <div class="skills">
             <h2 class="title-skill">My Skills</h2>
             <div class="parent">
-                <div >
+                <div>
                     <img class="cat" src="./cat-typing.gif" alt="gif" height="200px">
                 </div>
                 <div>
@@ -223,17 +238,17 @@
                     hot
                     wings!</p>
             </DIV>
-            <button>CONTACT ME</button>
+            <a class="btn" href="mailto:sharunpremachandran23@gmail.com">CONTACT ME</a>
     </div>
     <div class="footer">
         <div class="footer2">
-        <a href="#">Linkedin</a>
-        <a href="#">Twitter</a>
-        <a href="#">Website</a>
+            <a href="#">Linkedin</a>
+            <a href="#">Twitter</a>
+            <a href="#">Website</a>
+        </div>
+        <p class="last-para">© sharun@chaluparambath</p>
     </div>
-    <p class="last-para">© sharun@chaluparambath</p>
-    </div>
-    
+
 
 </body>
 
